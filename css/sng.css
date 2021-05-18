@@ -1,0 +1,213 @@
+.nav{
+    
+    font-family: 'Monda', sans-serif;
+   font-size: 14px;
+   font-style: normal;
+    display: flex;
+    list-style-type: none;
+   justify-content:center;
+   flex-flow:row wrap;
+   
+   padding-left: 0px;
+   }
+   .nav>li{
+       margin-left: 60px;
+       margin-right: 60px;
+       padding: 1em 2em;
+   }
+   .nav>li>a{
+       position: relative;
+       padding: .4em 0;
+       text-decoration: none;
+       color: black;
+       list-style-type: none;
+   }
+
+   a::after{
+       position: absolute;
+       content: "";
+       border-bottom: 2px solid #677082 ;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       transform: scaleX(0);
+       transform-origin: right;
+       transition: transform .6s;
+   }
+   a:hover::after{
+    transform: scaleX(1); 
+    transform-origin: left;
+   }
+   .title{
+    position: relative;
+    color: black;
+    font-family: 'Monda', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+   }
+   .title::after{
+    position: absolute;
+    content: "";
+    border-bottom: 4px solid #677082 ;
+    left: 610px;
+    bottom: 0;
+    width: 280px;
+
+}
+.text{
+    color: black;
+    font-family: 'Monda', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 200px;
+}
+.img{
+  margin-top: 30px;
+  margin-left: 370px;
+}
+.kontakt{
+    position: absolute;
+    width: 1519px;
+    height: 700px;
+    top: 1840px;
+    left: 0;
+    
+    background: black;
+}
+.kontakti{
+    
+        color: white;
+        font-family: 'Monda', sans-serif;
+        font-size: 30px;
+        text-align: center
+}
+.kontakt_text{
+    color: white;
+    font-family: 'Monda', sans-serif;
+    font-size: 18px;
+    text-align: center
+}
+.karta{
+    margin-left: 250px;
+}
+.z{
+    color: white;
+    font-family: 'Monda', sans-serif;
+        font-size: 30px;
+        text-align: center;
+
+}
+.navv{
+    
+    font-family: 'Monda', sans-serif;
+   font-size: 24px;
+   font-style: normal;
+    display: flex;
+    list-style-type: none;
+   text-align: center;
+   justify-content:center;
+
+   padding-bottom: 0px;
+   padding-left: 0px;
+   }
+   .navv>li{
+       margin-left: 25px;
+       margin-right: 25px;
+       padding: 1em 2em;
+   }
+   .navv>li>a{
+     
+       text-decoration: none;
+       color: black;
+       list-style-type: none;
+   }
+
+.navvv{
+    font-family: 'Monda', sans-serif;
+   font-size: 24px;
+   font-style: normal;
+    display: flex;
+    list-style-type: none;
+   text-align: center;
+   justify-content:center;
+   
+   padding-left: 0px;
+   }
+.navvv>li{
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 1em 2em;
+}
+.navvv>li>a{
+
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+}
+
+.navvvv{
+    font-family: 'Monda', sans-serif;
+   font-size: 24px;
+   font-style: normal;
+    display: flex;
+    list-style-type: none;
+   justify-content:center;
+   text-align: center;
+   
+   padding-left: 0px;
+   }
+.navvvv>li{
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 1em 2em;
+}
+.navvvv>li>a{
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+}
+
+.navvvvv{
+    font-family: 'Monda', sans-serif;
+   font-size: 24px;
+   font-style: normal;
+    display: flex;
+    list-style-type: none;
+   justify-content:center;
+   text-align: center;
+   
+   padding-left: 0px;
+   }
+.navvvvv>li{
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 1em 2em;
+}
+.navvvvv>li>a{
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+}
+
+.podval{
+    margin-top:850px;
+  }
+  .podval_menu{
+   font-family: 'Monda', sans-serif;
+   font-size: 14px;
+   font-style: normal;
+    display: flex;
+    list-style-type: none;
+   justify-content:center;
+   padding-bottom: 30px;
+  }
+  .podval_menu>li{
+   margin-left: 60px;
+   margin-right: 60px;
+}
+.podval_menu>li>a{
+   text-decoration: none;
+   color: black;
+   list-style-type: none;
+}

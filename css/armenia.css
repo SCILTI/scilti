@@ -1,0 +1,241 @@
+body {
+    margin: 0px;
+    }
+    
+    .header{
+        position: absolute;
+       
+    }
+    
+    .nav{
+    
+     font-family: 'Monda', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+     display: flex;
+     list-style-type: none;
+    justify-content:center;
+    
+    
+    padding-left: 230px;
+    }
+    .nav>li{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .nav>li>a{
+        position: relative;
+        padding: .4em 0;
+        text-decoration: none;
+        color: #677082;
+        list-style-type: none;
+    }
+    a::after{
+        position: absolute;
+        content: "";
+        border-bottom: 2px solid #677082 ;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform .6s;
+    }
+    a:hover::after{
+     transform: scaleX(1); 
+     transform-origin: left;
+    }
+    .Armenia{
+        
+        font-family: 'Monoton', cursive;
+        font-size:90px;  
+         color: #677082;
+         text-align: left;
+         margin-left: 90px;
+         margin-top: 250px;
+    }
+    .armenia_img{
+        margin-top: 0px;
+    }
+    
+
+    .img{
+        width: 374px;
+        height: 220px;
+        position:absolute;
+        top: 320px;
+        margin-left: 0;
+        float: left;
+        bottom: 50px;
+
+    }
+
+
+    .intro{
+        height:720px;
+        padding-top: 100px;
+        color: white;
+    background-position:center center;
+   background-size:cover;
+   width:1518px;
+   height:720px;
+   background: url(/img/armeniapiple.png);
+    }
+    
+
+    .block_text{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .block_text>a{
+        font-family: 'Monoton', cursive;
+        font-size: 20px;
+        text-decoration: none;
+        color: #fff;
+
+    }
+
+
+    
+    .block_fon{
+        position: absolute;
+        width: 200px;
+        height: 60px;
+        left: 170px;
+        top: 500px;
+        background: #677082;
+        border-radius: 12px;
+        
+    }
+    .portfolio{
+        margin-top: 722px;
+        margin-left: 2px;
+    }
+   .portfolio ul,
+   .portfolio li{
+       margin: 0px;
+       padding: 0px;
+       list-style-type: none;
+   }
+   .portfolio li{
+       display: inline-block;
+       width: 376px;
+       position: relative;
+   }
+   .portfolio img{
+       width: 376px;
+       height: 377px;
+       display: block;
+   }
+   .descr{
+       position:absolute;
+       top:0px;
+       left: 0px;
+       width: 100%;
+       height: 198px;
+       background-color: rgba(0, 0, 0,.5);
+       color: #ffff;
+       padding-top: 180px;
+       text-align: center;
+       font-size: 20px;
+       opacity: 0;
+       -webkit-transition: all .5s;
+       -o-transition: all .5s;
+       transition: all .5s;
+   }
+
+   .portfolio li:hover .descr{
+       opacity: 1;
+   }
+   .info{
+    margin-top: 50px;
+    ;
+}
+   .info_o{
+    
+    font-family: 'Monda', sans-serif;
+   font-size: 30px;
+   font-style: normal;
+   display: flex;
+   justify-content:center;
+   list-style-type: none;
+   text-align: center;
+   color: #677082;
+   }
+   .info_o>li{
+       margin-left: 80px;
+       margin-right: 80px;
+   }
+
+   .text{
+    position: absolute;
+    width: 1519px;
+    height: 400px;
+    top: 1800px;
+    
+    background: #677082;
+   }
+   .title_text{
+    color: #FFFDF1;
+    ;
+    font-family: 'orbiton', sans-serif;
+    font-size: 50px;
+    margin-left: 70px;
+
+   }
+   .osn_text{
+    color:  #FFFDF1;
+    ;
+    font-family: 'orbiton', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 50px;
+    padding-top: 0px;
+   }
+   .osn{
+    color: #FFFDF1;
+    ;
+    font-family: 'orbiton', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 50px;
+    padding-top: 10px;
+   }
+   .podval{
+     margin-top:500px;
+   }
+   .podval_menu{
+    font-family: 'Monda', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+     display: flex;
+     list-style-type: none;
+    justify-content:center;
+    padding-bottom: 30px;
+   }
+   .podval_menu>li{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.podval_menu>li>a{
+    position: relative;
+       padding: .4em 0;
+    text-decoration: none;
+    color: #677082;
+    list-style-type: none;
+}
+.podval_menu>a::after{
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #677082 ;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .6s;
+}
+.podval_menu>a:hover::after{
+ transform: scaleX(1); 
+ transform-origin: left;
+}

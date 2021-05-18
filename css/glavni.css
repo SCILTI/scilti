@@ -1,0 +1,292 @@
+*{
+margin: 0px;
+padding: 0px;
+
+}
+.body {
+background: #160F16;
+
+    }
+.conteiner{
+max-width: 1200px;
+margin: 0px auto;
+padding: 0px 15px;
+
+}
+@media(max-width:1200px){
+    .conteiner{
+        max-width: 970px;
+    }
+}
+@media(max-width:992px){
+    .conteiner{
+        max-width: 750px;
+    }
+}
+@media(max-width:767px){
+    .conteiner{
+        max-width: none;
+    }
+}
+.history{
+    position: relative;
+    margin: 290px auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    float: left;
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+}
+.arrows{
+    position: absolute;
+    margin: 320px auto;
+    padding: 50px;
+    margin-left: 250px;
+    margin-right: 0px;
+    float: left;
+}
+.conteiner_cube{
+    position: relative;
+    margin: 200px auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 300px;
+    height: 300px;
+    perspective: 500px;
+    float: right;
+}
+.cube{
+    width: inherit;
+    height: inherit;
+    transform-style: preserve-3d;
+}
+
+.side{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    border: 1px solid #fff;
+    font: normal 70px 'Orbitron';
+    text-align: center;
+    line-height: 300px;
+    color: #fff;
+    backface-visibility: hidden; 
+}
+.side>a{
+    text-decoration: none;
+    color: #fff;
+}
+.front{
+    transform: translateZ(150px);
+}
+.back{
+    transform: rotateY(180deg) translateZ(150px);
+}
+.right{
+    transform: rotateY(90deg) translateZ(150px);
+}
+.left{
+    transform: rotateY(-90deg) translateZ(150px);
+}
+.top{
+    transform: rotateX(90deg) translateZ(150px);
+}
+.bottom{
+    transform: rotateX(-90deg) translateZ(150px);
+}
+.wheel{
+    position: absolute;
+    top: 970px;
+    left: 50%;
+
+    transform: translate(-50% , -50%);
+    width: 895px;
+    height: 895px;
+    border-radius: 50%;
+    border: 3px groove white;
+    
+}
+.wheel_inner{
+    position: absolute;
+    left: 50%;
+   top: 455px;
+    transform: translate(-50% , -50%);
+    animation-name:strana;
+    animation-duration: 120s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.content_text>a{
+    font-family: 'Orbitron', sans-serif;
+    position: absolute;
+
+    left: 50%;
+    bottom:50%;
+    width: 0px;
+    transform-origin: 0 100%;
+padding-bottom: 480px;
+font-size:20px;  
+         color: white;
+     text-decoration: none;
+   
+
+}
+
+
+
+.title{
+    font-family: 'Orbitron', sans-serif;
+    font-size:150px;  
+     color: #ffff;
+     margin-top: 150px;
+     text-align: center;
+     margin-bottom: 20px;
+    }
+     
+
+
+.title_fond{
+    font-family: 'Orbitron';
+    font-size:30px;  
+     color: #ffff;
+     text-align: center;
+
+
+}
+.strana{
+    font-family: 'Orbitron';
+    font-size:30px;  
+     color: #ffff;
+     transform: rotate(-35deg);
+}
+.href{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Orbitron';
+   margin-left: 40PX;
+   transform:rotate(40deg);
+
+}
+.logo_planeta{
+    margin-left: 310px;
+    margin-top: 125px;
+    float:center;
+}
+
+.img_planeta{
+
+    margin-top: 725px;
+    margin-left: 1040px;
+}
+.planeta{
+    
+   animation-name:rotation;
+   animation-duration: 50s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+
+}
+
+.nav{
+    
+    font-family: 'Monda', sans-serif;
+   font-size: 14px;
+   font-style: normal;
+    display: flex;
+    list-style-type: none;
+   justify-content:center;
+   
+   padding-top: 250px;
+   padding-left: center;
+   }
+   .nav>li{
+       margin-left: 60px;
+       margin-right: 60px;
+   }
+   .nav>li>a{
+    position: relative;
+    padding: .4em 0;
+       text-decoration: none;
+       color: #D7D7D7;
+   }
+   a::after{
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid sandybrown;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .9s;
+}
+a:hover::after{
+ transform: scaleX(1); 
+ transform-origin: left;
+}
+   .cng{
+       padding-left: 10px;
+       padding-top: 0px;
+   }
+   .nas{
+    font-family: 'Orbitron', sans-serif;
+    font-size:50px;  
+     color: #ffff;
+     text-align: center;
+     padding-top: 50px;
+     margin-bottom: 0px;
+     padding-bottom: 0px;
+     
+   }
+   .nas_s{
+    font-family: 'Orbitron', sans-serif;
+    font-size:20px;  
+     color: #ffff;
+     text-align: center;
+    padding-left: center;
+
+   }
+   .nas_si{
+    font-family: 'Orbitron', sans-serif;
+    font-size:30px;  
+     color: #ffff;
+     text-align: center;
+    padding-left: center;
+    margin: 0px;
+
+   }
+   .znak{
+       padding-top: 20px;
+       padding-left: 250px;
+       padding-bottom: 20px;
+   }
+   .znak_text{
+    font-family: 'Orbitron', sans-serif;
+    font-size:15px;  
+     color: #ffff;
+     text-align: center;
+    padding-left: center;
+    padding-bottom: 50px;
+}
+   .fon{
+padding-left: 0px;
+   }
+
+@keyframes rotation{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes strana{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
